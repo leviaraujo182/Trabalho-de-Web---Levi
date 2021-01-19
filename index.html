@@ -1,0 +1,98 @@
+<html>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <head>
+        <title>Desenvolvimento de Software para Web</title>
+    </head>
+
+    <body>
+        <div class="nav">
+            <label class="logo"><img src="img/flower.png" class="logoimg"></label>
+            <ul>
+                <li class="menu"><a href="#" class="txtheader">Changelog</a></li>
+                <li class="menu"><a href="#" class="txtheader">Full preview</a></li>
+                <li class="menu"><a href="#" class="txtheader">About us</a></li>
+                <li class="menu"><a href="#" class="txtheader">Help</a></li>
+                <li class="menu"><a href="#" class="txtheader_gettheapp">Get App <span class="img_arrow"></span></a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="painel">
+            <div class="textoawesome">
+                AWESOME SERVICE 
+                <button type="button" name="btn_amarelo" onclick="coramarela()" class="btncores">Amarelo</button>
+                <button type="button" name="btn_azul" onclick="corazul()" class="btncores">Azul</button>
+                <button type="button" name="btn_verde" onclick="corverde()" class="btncores">Verde</button>
+
+            </div>
+
+            <div class="textoprincipal">
+                Lots of useful tools<br>
+                and stylish illustration
+            </div>
+
+            <div class="subtexto_principal">
+                Get one subscription to take an advantage<br>
+                of all the Craftwork possibilities
+            </div>
+             <form>
+                <button type="button" name="btngoogleplay" value="Google Play" class="btngoogleplay"><div class="txt_googleplay"><span class="imggoogleplay"></span> <div class="available"> Available on </div>Google Play</div></button>
+                <button type="button" name="btnapplestore" value="Apple Store" class="btnapplestore"><div class="txt_applestore"><span class="img_applestore"></span> <div class="available"> Available on </div> Apple Store</div></button>
+             </form>
+             
+             <div class="features">
+                <div class="txt_features">FEATURES</div>
+
+                <ul style="display: flex; justify-content: center; ">
+                    <li>
+                    <div class="box"><img src="https://www.flaticon.com/svg/vstatic/svg/106/106226.svg?token=exp=1610834824~hmac=98245c85135d40ad8c106ca51ad0abb2" class="img_features" /> <br>Cores<br> <span class="box_features">21 pic</span></div></li>
+
+                    <li><div class="box"><img src="https://www.flaticon.com/svg/vstatic/svg/2232/2232200.svg?token=exp=1610835564~hmac=4a80d4c52f1e791607da2e59edc9d8b7" class="img_features"> <br>Database <br> <span class="box_features">15 pic</span></div></li>
+
+                    <li><div class="box"> <img src="https://www.flaticon.com/svg/vstatic/svg/3580/3580069.svg?token=exp=1610835691~hmac=83cc81e07f5119d9f1bf2d54c97dd475" class="img_features"> <br> Cycle <br> <span class="box_features">41 pic</span></div></li>
+
+                    <li><div class="box"><img src="https://www.flaticon.com/svg/vstatic/svg/942/942190.svg?token=exp=1610835807~hmac=1dde9979c494db0d1a1a6b9a71dc7c64" class="img_features"><br>Target <br> <span class="box_features">90 pic</span></div></li>
+
+                    <li><div class="box"> <img src="https://www.flaticon.com/svg/vstatic/svg/3515/3515476.svg?token=exp=1610835985~hmac=1c301e1fa6efbccf17f6c13d7da654f9" class="img_features"> <br> System <br> <span class="box_features">8 pic</span></div></li>
+
+                    <li><div class="box"><img src="https://www.flaticon.com/svg/vstatic/svg/852/852515.svg?token=exp=1610836100~hmac=ac4b7dc92499a8c87e2d361952da24d7" class="img_features"><br> WebSite <br> <span class="box_features">18 pic</span></li>
+                </ul>
+            </div>
+                <ul>
+            <div class="painel_recado">
+                <div class="txt_recado">Deixe o seu recado!</div>
+                <ul style="display: flex; justify-content: center;">
+                        <li><div class="area_recado">
+                   
+                    <form class="form_recado">
+                        <label class="nomes_recado">Nome*<br></label>
+                        <input type="text" name="txt_nome" value="" class="form_group" id="nome">
+                        <label class="nomes_recado"><br>Recado<br></label>
+                        <textarea class="txtarea" id="Mensagem" value="">
+
+                        </textarea>
+                        <br>
+                        <button type="button" name="btnenviar" class="btnenviar" value="Enviar" onclick="enviar()">Enviar</button>
+                      
+                    </form>
+                </div></li>
+                        <li> <div class="box_recados">
+                            <ul id="myUL" class="myul">
+                                <hr>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="footer">
+                <div class="txt_footer"><button type="button" name="btncreditos" class="btncreditos" onclick="creditos()">Créditos</button></div>
+            </div>
+           
+    </body> 
+
+
+</html>
